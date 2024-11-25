@@ -27,6 +27,7 @@ const squareObjects = document.querySelectorAll("#square-item");
 console.log(squareObjects);
 let squareObjectsArray = Array.prototype.slice.call(squareObjects);
 squareObjectsArray.forEach(element => element.addEventListener("mouseover", function() {
+    element.style.backgroundColor = "red";
     console.log("hover works!");
 }))
 
