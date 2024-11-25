@@ -22,6 +22,11 @@ for (elem of lineArr) {
     }   
 }
 
-
-
+//creating a hovering function
+const squareObjects = document.querySelectorAll("#square-item");
+console.log(squareObjects);
+let squareObjectsArray = Array.prototype.slice.call(squareObjects);
+squareObjectsArray.forEach(element => element.addEventListener("mouseover", function() {
+    console.log("hover works!");
+}))
 
