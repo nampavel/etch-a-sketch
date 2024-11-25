@@ -1,24 +1,22 @@
-/* #container {
+#container {
     border: 1px solid black;
-    padding: 10px;
-
-} */
-
-
-
-* {
-    border: 1px solid purple;
-    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; 
+    width:  100vw;
 }
 
 #line {
     display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #square-item {
     width: 10px;
     height: 10px;
     border: 1px solid black;
-    margin: 5px;
+    margin: 2px;
 }
 
